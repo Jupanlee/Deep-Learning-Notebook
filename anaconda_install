@@ -1,0 +1,10 @@
+1.  正确安装完毕anaconda，输入conda --version提示：-bash: conda: command not found
+    解决方法：
+    a. 进入根目录下：cd ~
+    b. 显示根目录下所有文件（包括隐藏文件）：ls -a
+    c. 在.zshrc里添加一行代码，并保存文件
+       vim .zshrc
+       export PATH="/mnt/lustre/lijupan/anaconda3/bin:$PATH" 
+       /Users/scarlett/anaconda3/bin 是您的anaconda安装目录，需进行修改
+       
+
