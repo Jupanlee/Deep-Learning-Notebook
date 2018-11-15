@@ -1,0 +1,2 @@
+ps -fu lijupan | grep train.sh
+kill 进程号

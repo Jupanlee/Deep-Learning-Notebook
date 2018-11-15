@@ -1,0 +1,3 @@
+nn.PixelShuffle
+
+将shape为(*, r^2 * C, H, W)的Tensor进行reshape，得到shape为(*, C, rH, rW)的Tensor，此处r为函数参数upscale_factor
