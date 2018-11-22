@@ -1,0 +1,12 @@
+# 在linux系统中，将mkdir和cd合并为一个命令
+1.  打开~/.bashrc
+    vim ~/.bashrc
+
+2.  向~/.bashrc中添加如下语句
+function mkcd
+{
+  command mkdir $1 && cd $1
+}
+
+3.  关闭~/.bashrc后，激活~/.bashrc
+    source ~/.bashrc
