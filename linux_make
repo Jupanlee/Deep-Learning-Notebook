@@ -1,0 +1,4 @@
+
+1. 在当前目录下搜寻 Makefile (or makefile) 文件 
+
+2. make 会自动判断源程序是否改变，若改变，则执行Makefile内指令
